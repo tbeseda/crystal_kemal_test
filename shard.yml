@@ -1,0 +1,17 @@
+name: crystal_kemal_test
+version: 0.1.0
+
+authors:
+  - Taylor Beseda <tbeseda@gmail.com>
+
+targets:
+  crystal_kemal_test:
+    main: src/crystal_kemal_test.cr
+
+crystal: 1.6.2
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
